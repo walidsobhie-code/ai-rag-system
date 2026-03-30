@@ -151,3 +151,7 @@ If this helped you, please star the repo!
 ---
 
 **Built with ❤️ by [walidsobhie-code](https://github.com/walidsobhie-code)**
+
+## 🖥️ Demo Screenshot
+
+![RAG System Demo](ai-rag-system_test.png)
