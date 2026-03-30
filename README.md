@@ -2,8 +2,9 @@
 
 Production-ready Retrieval Augmented Generation system with knowledge base. Build AI that knows your documents.
 
-![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
+[![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Docker](https://img.shields.io/badge/docker-ready-blue.svg)](Dockerfile)
 
 ## Why RAG?
 
@@ -17,6 +18,8 @@ Every company is building AI that knows their data. RAG is the foundation of ent
 - 🔍 **Semantic Search** - Find relevant context
 - 💬 **Chat UI** - Gradio chat interface
 - 🧠 **Multi-LLM** - OpenAI, Anthropic, local models
+- 🌐 **Web UI** - Beautiful Gradio interface
+- 🐳 **Docker Ready** - Deploy anywhere
 
 ## 🚀 Quick Start
 
@@ -26,24 +29,16 @@ pip install -r requirements.txt
 # Index documents
 python rag_engine.py --ingest ./docs
 
-# Start chat
-python chat.py
+# Start chat UI
+python gradio_app.py
+# Open http://localhost:7860
 ```
 
-## 📖 Documentation
+## 🐳 Docker
 
-- [Setup Guide](docs/setup.md)
-- [Configuration](docs/config.md)
-- [Examples](examples/)
-
-## 🛠️ Requirements
-
-```
-langchain>=0.1.0
-chromadb>=0.4.0
-pypdf>=3.0.0
-openai>=1.0.0
-gradio>=4.0.0
+```bash
+docker build -t ai-rag-system .
+docker run -p 7860:7860 -e OPENAI_API_KEY=your-key ai-rag-system
 ```
 
 ## 📝 License
