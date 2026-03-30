@@ -1,0 +1,11 @@
+# Configuration for stale bot
+
+daysBeforeStale: 60
+daysBeforeClose: 7
+staleLabel: "stale"
+comment: "This issue has been automatically marked as stale due to inactivity."
+
+issuesLabel: "stale"
+closeIssueMessage: "This issue was closed due to inactivity."
+
+operationsPerRun: 30
