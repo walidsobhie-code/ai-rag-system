@@ -1,0 +1,15 @@
+name: Auto-assign issues
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  auto-assign:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Auto-assign issues
+        uses: actions/auto-assign-action@v1.0.1
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
+          assignees: "walidsobhie-code"
