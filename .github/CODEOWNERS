@@ -1,0 +1,12 @@
+# Default owner
+* @walidsobhie-code
+
+# AI/ML patterns
+*.py @walidsobhie-code
+
+# Docs
+*.md @walidsobhie-code
+docs/ @walidsobhie-code
+
+# CI/CD
+.github/ @walidsobhie-code
