@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/walidsobhie-code/ai-rag-system)](https://github.com/walidsobhie-code/ai-rag-system/stargazers)
 
-[🚀 Try Live Demo](https://huggingface.co/spaces/my-ai-stack/ai-rag-system)
+[🤗 HuggingFace 🚀 Try Live Demo](https://huggingface.co/spaces/my-ai-stack/ai-rag-system)
 
 ## 🎯 What It Does
 
