@@ -1,0 +1,14 @@
+name: Star gratitude
+
+on:
+  star:
+    types: [created]
+
+jobs:
+  thank-you:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Thank you!
+        run: |
+          echo "Thanks for starring! 🙏"
+          echo "Check out our live demos at https://huggingface.co/my-ai-stack"
