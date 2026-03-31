@@ -3,7 +3,7 @@
 > **Production-Ready RAG** (Retrieval Augmented Generation) with knowledge base. Build AI that actually knows your documents.
 
 [![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://python.org)
-[![Try on HF](https://img.shields.io/huggingface/spaces/my-ai-stack/ai-rag-system?color=blue&label=Try+Live+Demo)](https://huggingface.co/spaces/my-ai-stack/ai-rag-system)
+[🚀 Try Live Demo](https://huggingface.co/spaces/my-ai-stack/ai-rag-system)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/walidsobhie-code/ai-rag-system)](https://github.com/walidsobhie-code/ai-rag-system/stargazers)
 
