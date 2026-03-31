@@ -6,9 +6,9 @@ Fixes #(issue number)
 
 ## ✅ Checklist
 - [ ] Tests added/updated
-- [ ] Code follows the style guide (`ruff check .`)
+- [ ] Code follows the style guide
 - [ ] Documentation updated
-- [ ] `requirements.txt` updated if needed
+- [ ] requirements.txt updated if needed
 
 ## 💬 Additional Notes
 Anything else reviewers should know?
@@ -17,5 +17,3 @@ Anything else reviewers should know?
 Describe how you tested the changes:
 - [ ] Unit tests pass
 - [ ] Manual testing: [describe what you did]
-
-## 📸 Screenshots (if applicable)
